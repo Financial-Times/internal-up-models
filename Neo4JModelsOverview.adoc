@@ -1,0 +1,17 @@
+= Graph Database Models
+
+Here you will find an overview of the Neo4J / Graph database models.
+
+== 10K View
+//hide
+//setup
+//output
+[source,cypher]
+----
+CREATE (p:Person:Concept:Thing)<-[:HAS_MEMBER]-(m:Membership)-[:HAS_ORGANISATION]->(o:PublicCompany:Company:Organisation)
+CREATE (r:Role)
+RETURN p, m, o, r
+----
+
+:PeopleGist: https://gist.github.com/dgem/8b7bf791cff99e59f373
+include::{PeopleGist}/PeopleOrgMemberRole.adoc[]
