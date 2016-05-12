@@ -1,4 +1,24 @@
 
 = Brands
 
+The following is taken from the Brands Transformer:
+
 include::3Brands.json[]
+
+The general structure of the Brands JSON is:
+```
+{
+  "uuid": "e363dfb8-f6d9-4f2c-beba-5162b334272b",
+  "prefLabel": "Lex Live",
+  "strapline": "A blog and notebook by the writers of Lex, the investment column of the FT",
+  "description": "Lex live allows a chance to see inside the work of a Lex writer and to \nparticipate in the construction of a Lex note. It will also contain some brief \nobservations and thought-provoking questions from Lex columnists.",
+  "descriptionXML": "<p>Lex live allows a chance to see inside the work of a Lex writer and to participate in the construction of a Lex note. It will also contain some brief observations and thought-provoking questions from Lex columnists.</p>",
+  "parentUUID": "2d3e16e0-61cb-4322-8aff-3b01c59f4daa",
+  "identifiers": [
+    {
+      "authority": "http://api.ft.com/system/FT-TME",
+      "identifierValue": "MWM5NjVlYTYtZGUyMy00NjUwLWEwNWMtYTIwMDJjMTcwMTYw-QnJhbmRz"
+    }
+  ],
+  "_imageUrl": "http://www.ft.com/cms/a2276f54-e66f-11e3-9a20-00144feabdc0.png"
+}```
