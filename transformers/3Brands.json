@@ -1,0 +1,47 @@
+[
+  {
+    "uuid": "e363dfb8-f6d9-4f2c-beba-5162b334272b",
+    "prefLabel": "Lex Live",
+    "strapline": "A blog and notebook by the writers of Lex, the investment column of the FT",
+    "description": "Lex live allows a chance to see inside the work of a Lex writer and to \nparticipate in the construction of a Lex note. It will also contain some brief \nobservations and thought-provoking questions from Lex columnists.",
+    "descriptionXML": "<p>Lex live allows a chance to see inside the work of a Lex writer and to participate in the construction of a Lex note. It will also contain some brief observations and thought-provoking questions from Lex columnists.</p>",
+    "parentUUID": "2d3e16e0-61cb-4322-8aff-3b01c59f4daa",
+    "identifiers": [
+      {
+        "authority": "http://api.ft.com/system/FT-TME",
+        "identifierValue": "MWM5NjVlYTYtZGUyMy00NjUwLWEwNWMtYTIwMDJjMTcwMTYw-QnJhbmRz"
+      }
+    ],
+    "_imageUrl": "http://www.ft.com/cms/a2276f54-e66f-11e3-9a20-00144feabdc0.png"
+  },
+  {
+    "uuid": "164d0c3b-8a5a-4163-9519-96b57ed159bf",
+    "prefLabel": "Tech Blog",
+    "strapline": "Dispatches from the tech world",
+    "description": "Richard Waters, Tim Bradshaw, Hannah Kuchler and Leslie Hook in the FT’s San \nFrancisco bureau share their views - plus tech insights from Murad Ahmed and \nChris Nuttall in London.",
+    "descriptionXML": "<p>Richard Waters, Tim Bradshaw, Hannah Kuchler and Leslie Hook in the FT’s San Francisco bureau share their views - plus tech insights from Murad Ahmed and Chris Nuttall in London.</p>",
+    "parentUUID": "dbb0bdae-1f0c-11e4-b0cb-b2227cce2b54",
+    "identifiers": [
+      {
+        "authority": "http://api.ft.com/system/FT-TME",
+        "identifierValue": "ZDIyZjNlOWQtZDNlMy00Yzk4LTkwOTctNzFiYjc5ZjNjYTkw-QnJhbmRz"
+      }
+    ],
+    "_imageUrl": "http://blogs.ft.com/tech-blog/files/2014/02/tech_hub_badge.png"
+  },
+  {
+    "uuid": "b4fac748-a2b1-4b7d-8e1f-03ba743ff717",
+    "prefLabel": "David Allen Green",
+    "strapline": "A liberal and critical perspective look on legal and policy matters",
+    "description": "This blog looks at law and policy, and it also looks at the media \nrepresentation of legal and policy matters. Nothing on this blog constitutes \nlegal advice.",
+    "descriptionXML": "<p>This blog looks at law and policy, and it also looks at the media representation of legal and policy matters.  Nothing on this blog constitutes legal advice.</p>",
+    "parentUUID": "dbb0bdae-1f0c-11e4-b0cb-b2227cce2b54",
+    "identifiers": [
+      {
+        "authority": "http://api.ft.com/system/FT-TME",
+        "identifierValue": "MmYyZGMzZmQtNmMzZi00OTQ1LThlMmQtZDI0OGU2ZDk2N2M0-QnJhbmRz"
+      }
+    ],
+    "_imageUrl": "http://media.ft.com/cms/94a58330-1653-11e3-856f-00144feabdc0.png"
+  }
+]

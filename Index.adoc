@@ -1,0 +1,31 @@
+= Universal Publishing Models
+
+This repository's goal is to provide details on the various models used within the Universal Publishing Platform (UPP).
+
+It was initially created to facilitate discussions around how we model our data and how these canonical models may be transformed at various stages in the platform.
+
+== Model representation
+
+The currently agreed way to represent our models is through example JSON.
+
+== Transformers: the Canonical Representation
+
+The first place to start at looking is the output from the transformers, and perhaps the mappers. These components are the originators of canonical representations we use in the platform.
+
+Metadata currently uses transformers to mutate incoming data into a canonical representation of the data to be passed around the system. For example data from Factset(URL) relating to People is consumed through the *People Transfomers*. These transformers are also responsible for concording data from multiple sources. For example the People data from Factset may be concorded with People data from QMI through a series of transformers, the ultimate transformer in the chain is the single source of all knowledge about People in UPP.
+
+Content also uses transformers, however the architecture is changing to make use of mappers which provide a similar function. The main difference is that the mapper is used as part of the processing, rather than as a pre-processing stage. In most cases this difference is of little relevance to this document. What we are concerned with here is the cannonical representation of models.
+
+== 10K View
+//hide
+//setup
+//output
+[source,cypher]
+----
+CREATE (p:Person:Concept:Thing)<-[:HAS_MEMBER]-(m:Membership)-[:HAS_ORGANISATION]->(o:PublicCompany:Company:Organisation)
+CREATE (r:Role)
+RETURN p, m, o, r
+----
+
+:PeopleGist: https://gist.github.com/dgem/8b7bf791cff99e59f373
+include::{PeopleGist}/PeopleOrgMemberRole.adoc[]
