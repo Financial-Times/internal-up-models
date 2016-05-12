@@ -4,9 +4,7 @@
 The following is taken from the Brands Transformer:
 
 include::3Brands.json[]
-include::3Brands.json
-include::BrandsInclude.adoc
-include::BrandsInclude.adoc[]
+_annoyingly the include asciidoc is converted to a link by GitHub, see _
 
 The general structure of the Brands JSON is:
 ```
